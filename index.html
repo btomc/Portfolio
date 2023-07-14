@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="images/computer-icon.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>BEATA</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">
+          <!-- <i class="fas fa-paper-plane"></i></i>BEATA -->
+          <img src="./images/computer-icon.png" class="logo_icon" />BEATA
+        </a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#skills" class="navbar__links" id="skills-page">Skills</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#mywork" class="navbar__links" id="mywork-page">My work</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#hireme" class="navbar__links" id="hireme-page">Hire me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="hero" id="home">
+      <div class="decoration-imgs">
+
+      </div>
+      <div class="hero__container">
+        <h1 class="hero__title">Modern websites</h1>
+        <p class="hero__subtitle">with the touch of style</p>
+        <a href="#mywork" class="btn-hero btn-primary pulse "
+          >See more <i class="fas fa-arrow-down"></i
+        ></a>
+      </div>
+    </div>
+
+    <div class="skills" id="skills">
+      <div class="skills__wrapper">
+        <div class="skills__card">
+          <div class="skills__title">
+            <i class="fas fa-laptop card__icon"></i>
+            <h3>Front-end</h3>
+          </div>
+          <div class="skills__list">
+            <p>ReactJS</p>
+            <p>Redux Toolkit</p>
+            <p>Tailwind CSS</p>
+            <p>Java Script</p>
+            <p>NextJS</p>
+          </div>
+        </div>
+        <div class="skills__card">
+          <div class="skills__title">
+            <i class="fas fa-server card__icon"></i>
+            <h3>Back-end</h3>
+          </div>
+          <div class="skills__list">
+            <p>NodeJS</p>
+            <p>NPM</p>
+            <p>Express</p>
+            <p>MongoDB</p>
+            <p>Rest API</p>
+            <p>Supabase</p>
+          </div>
+        </div>
+        <div class="skills__card">
+          <div class="skills__title">
+            <i class="fas fa-star card__icon"></i>
+            <h3>Others</h3>
+          </div>
+          <div class="skills__list">
+            <p>Git</p>
+            <p>Postman</p>
+            <p>Figma</p>
+            <p>Styled components</p>
+            <p>Typescript</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="my-work" id="mywork">
+
+
+      <div class="my-work__item">
+        <div class="my-work__img--wrap">
+          <div class="my-work__img">
+            <img src="./images/cinemi-1.png" alt="" />
+          </div>
+        </div>
+        <div class="my-work__content">
+          <p class="my-work__top-line">React, Firebase</p>
+          <h2 class="my-work__headline">Cinemi</h2>
+          <p class="my-work__desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quo
+            sed quasi, explicabo accusamus unde, earum reiciendis incidunt saepe
+            beatae nulla nihil consequatur.
+          </p>
+          <div class="my-work__btn-wrap">
+            <a
+              href="https://github.com/btomc/insta-next"
+              class="btn btn-code"
+              target="_blank"
+              >Code <i class="fab fa-github mar-icon"></i
+            ></a>
+            <a
+              href="https://quiz-app-4aa51f.netlify.app/"
+              class="btn btn-primary"
+              target="_blank"
+              style="background: #821069";
+              >Demo <i class="fas fa-chevron-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="my-work__item">
+        <div class="my-work__img--wrap">
+          <div class="my-work__img">
+            <img src="./images/insta-2.jpg" alt="" />
+          </div>
+        </div>
+        <div class="my-work__content">
+          <p class="my-work__top-line">Firebase, Next, Tailwind</p>
+          <h2 class="my-work__headline">Insta app</h2>
+          <p class="my-work__desc">
+            Social media app allowing to create a post, like a post & comment with profile page and authentication.
+          </p>
+          <div class="my-work__btn-wrap">
+            <a
+              href="https://github.com/btomc/insta-next"
+              class="btn btn-code"
+              target="_blank"
+              >Code <i class="fab fa-github mar-icon"></i
+            ></a>
+            <a
+              href="https://quiz-app-4aa51f.netlify.app/"
+              class="btn btn-primary"
+              target="_blank"
+              style="background: #821069";
+              >Demo <i class="fas fa-chevron-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="my-work__item">
+        <div class="my-work__img--wrap">
+          <div class="my-work__img">
+            <img src="./images/booky-2.png" alt="" />
+          </div>
+        </div>
+        <div class="my-work__content">
+          <p class="my-work__top-line">MERN</p>
+          <h2 class="my-work__headline">booky eCommerce</h2>
+          <p class="my-work__desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quo
+            sed quasi, explicabo accusamus unde, earum reiciendis incidunt saepe
+            beatae nulla nihil consequatur.
+          </p>
+          <div class="my-work__btn-wrap">
+            <a
+              href="https://github.com/btomc/Candy-Crush-game"
+              class="btn btn-code"
+              target="_blank"
+              >Code <i class="fab fa-github mar-icon"></i
+            ></a>
+            <a
+              href="https://candy-25b912.netlify.app/"
+              class="btn btn-primary"
+              target="_blank"
+              >Demo <i class="fas fa-chevron-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="my-work__item">
+        <div class="my-work__img--wrap">
+          <div class="my-work__img">
+            <img src="./images/booky-2.png" alt="" />
+          </div>
+        </div>
+        <div class="my-work__content">
+          <p class="my-work__top-line" >HTML, CSS, JS</p>
+          <h2 class="my-work__headline">Candy Crush</h2>
+          <p class="my-work__desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quo
+            sed quasi, explicabo accusamus unde, earum reiciendis incidunt saepe
+            beatae nulla nihil consequatur.
+          </p>
+          <div class="my-work__btn-wrap">
+            <a
+              href="https://github.com/btomc/Candy-Crush-game"
+              class="btn btn-code"
+              target="_blank"
+              >Code <i class="fab fa-github mar-icon"></i
+            ></a>
+            <a
+              href="https://candy-25b912.netlify.app/"
+              class="btn btn-primary"
+              target="_blank"
+              >Demo <i class="fas fa-chevron-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hire-me" id="hireme">
+      <div class="info__container">
+        <p>Get in touch</p>
+        <div class="info__wrap">
+          <div class="decoration-circles">
+            <div class="decoration-circles_item"></div>
+            <div class="decoration-circles_item"></div>
+            <div class="decoration-circles_item"></div>
+            <!-- <div class="decoration-circles_item"></div> -->
+          </div>
+          <div class="info__shape">
+            <img src="./images/profile-2224.jpg" alt="woman" class="info__img" />
+          </div>
+          <ul class="social-list">
+            <li class="social-list__item">
+              <a href="https://github.com/btomc" target="_blank">
+                <i class="fab fa-github social-icon"></i>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a href="https://www.linkedin.com/" target="_blank">
+                <i class="fab fa-linkedin social-icon"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="contact__container">
+        <p>Send me a message</p>
+        <form name="contact" method="POST" data-netlify="true">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name..."
+            required
+          />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email..."
+            required
+          />
+          <textarea
+            class="message"
+            name="message"
+            id="message"
+            placeholder="Message..."
+            cols="30"
+            rows="10"
+          ></textarea>
+          <button class="btn-primary btn" type="submit">
+            Send <i class="fas fa-chevron-right"></i
+          >
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <footer class="copyright">
+      <p>&copy; 2023 BEATA</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
